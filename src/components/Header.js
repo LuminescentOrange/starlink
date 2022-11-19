@@ -36,6 +36,6 @@ const Header = () =>{
             </p>
     </header>
 
-    )
+    );
 }
 export default Header;

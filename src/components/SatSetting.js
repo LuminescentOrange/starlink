@@ -1,12 +1,13 @@
 import React from "react"
 import {Form, Button, InputNumber} from 'antd';
 
-export default function SatSetting(){
+export default function SatSetting(props){
     const showSatellite = values => {
         console.log('Received values of form: ', values);
-    }
+        props.onShow(values);
+        
 
-    
+    }
     return(
         <Form
             name="wrap"

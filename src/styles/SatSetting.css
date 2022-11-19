@@ -1,4 +1,4 @@
-/* .sat-setting {
+.sat-setting {
     width: 100%;
     background-color: #fbfbfb;
     border: 1px solid #d9d9d9;
@@ -9,4 +9,4 @@
 .show-nearby {
     display: flex;
     justify-content: center;
-} */
+}
